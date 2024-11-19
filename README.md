@@ -13,7 +13,7 @@ This project  presents a Python-based approach to both abstractive and extractiv
 2.Package installation
 
      pip install PyPDF2
-     pipinstall urllib
+     pip install urllib
      pip install transformers
 
  # Implementation details
@@ -23,17 +23,26 @@ This project  presents a Python-based approach to both abstractive and extractiv
    Manual text entry,Upload text/PDF file,Extract text from a URL
    
 2.Preprocessing
-   Text cleaning:
-     Remove non-alphanumeric characters.
-     Lemmatization and stop-word removal.
-   Tokenization:
-     Split text into sentences for extractive methods.
-     Processed chunks for abstractive methods.
+    
+     Text cleaning:
+       Remove non-alphanumeric characters.
+       Lemmatization and stop-word removal.
+   
+    Tokenization:
+      Split text into sentences for extractive methods.
+       Processed chunks for abstractive methods.
+       
 3.Summarization
-   Extractive Approach: Utilizes TF-IDF to highlight critical sentences.
-   Abstractive Approach: Employs transformer models for concise paraphrasing.
+
+    Extractive Approach: Utilizes TF-IDF to highlight critical sentences.
+    
+    Abstractive Approach: Employs transformer models for concise paraphrasing.
 
 # output
+  
   Summarized passage 
+  
   Total number of words in original passage
+  
   Total number of words in summarized passage
+  

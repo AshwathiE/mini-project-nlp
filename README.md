@@ -1,10 +1,10 @@
 #  Text Summarization using nlp
-# project overview
+# Project overview
 This repository demonstrates implementation of a text summarization system that efficiently condenses large text documents into concise summaries. 
 It supports both extractive summarization (selecting key sentences from the text) and abstractive summarization (generating summaries in human-like language).
 This project  presents a Python-based approach to both abstractive and extractive summarization. Extractive methods select key sentences from the source, while abstractive methods generate new, rephrased content.
 
-# setup 
+# Setup 
 1.Install Dependencies
   Make sure Python 3.8+ is installed, then create a virtual environment (optional) and install the dependencies:
   
